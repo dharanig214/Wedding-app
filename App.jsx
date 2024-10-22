@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Ensure no duplicate imports
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; 
 import About from './Components/Navbar/pages/About'; 
 import Booking from './Components/Navbar/pages/Booking';
 import Carrer from './Components/Navbar/pages/Carrer';
@@ -8,12 +8,12 @@ import Gallery from './Components/Navbar/pages/Gallery';
 import Service from './Components/Navbar/pages/Service';
 
 
-import Navbar from './Components/Navbar/Navbar'; // Include Navbar if needed
+import Navbar from './Components/Navbar/Navbar'; 
 
 const App = () => {
   return (
     <Router>
-      <Navbar /> {/* Include the Navbar if you have one */}
+      <Navbar />
       <Routes>
        
         <Route path='/about' element={<About/>}/>
