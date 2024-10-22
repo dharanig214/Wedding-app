@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.navbar{
+    width: 100%;
+    
+    display: flex;
+    align-items:first baseline;
+    justify-content:space-between;
+    background-color: white;
+    padding:0 1rem;
+    list-style: none;
+
+}
+
+  
+ul {
+    list-style-type: none;       /* Remove bullet points from the list */
+    display: flex;               /* Use flexbox to align items horizontally */
+    justify-content: space-around; /* Optional: Distribute space between list items */
+    padding: 0;                  /* Remove default padding */
+    margin: 0;                   /* Remove default margin */
+  }
+  
+  li {
+    margin-right: 20px;          /* Add some space between list items */
+  }
+  
+  li:last-child {
+    margin-right: 0;             /* Remove the margin from the last item */
+  }
+  
+  a {
+    text-decoration: none;       /* Remove the underline from links */
+    color: #333;                 /* Set the text color */
+    font-size: 16px;             /* Adjust font size */
+    font-weight: bold;           /* Make text bold */
+  }
+  
+  a:hover {
+    color: #007bff;              /* Change color when hovered */
+  }
+  
+
+.nav-logo{
+    width: 60px;
+    cursor: pointer;
+}
+
+.logo{
+    width: 30px;
+    cursor: pointer;
+    margin-left:0%;
+}
+.wed{
+    width:30px;
+    margin-right: 10px;
+    align-items: center;
+    
+}
+.logo-name{
+    font-size: small;
+}
+.brand {
+    display: flex;
+    flex-direction: column;         /* Stack brand name and tagline vertically */
+  }
+  
+  .brand-name, .tagline {
+    white-space: nowrap;            /* Prevent text from wrapping into new lines */
+    display: inline-block;          /* Ensure the text behaves like inline content */
+  }
+  
+  .brand-name {
+    font-size: 18px;                /* Adjust brand name size */
+    font-weight: bold;              /* Bold brand name */
+    color: #ff6f61;  
+    margin-right: 8px;               /* Wedding-themed color */
+  }
+  
+  .tagline {
+    font-size: 12px;                /* Smaller font size for tagline */
+    color: #166109;                    /* Lighter color for tagline */
+    font-style:oblique; 
+    white-space: nowrap;             /* Italic style for tagline */
+  }
+
+
